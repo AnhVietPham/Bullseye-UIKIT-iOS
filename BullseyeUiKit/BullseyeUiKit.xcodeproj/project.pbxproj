@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34A46A11241D38AF003A78B5 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A46A10241D38AF003A78B5 /* AboutViewController.swift */; };
+		34A46A13241D3C3A003A78B5 /* AboutAuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A46A12241D3C3A003A78B5 /* AboutAuthorViewController.swift */; };
 		34CB9C552414EFFD00171A89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CB9C542414EFFD00171A89 /* AppDelegate.swift */; };
 		34CB9C572414EFFD00171A89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CB9C562414EFFD00171A89 /* SceneDelegate.swift */; };
 		34CB9C592414EFFD00171A89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CB9C582414EFFD00171A89 /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34A46A10241D38AF003A78B5 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		34A46A12241D3C3A003A78B5 /* AboutAuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAuthorViewController.swift; sourceTree = "<group>"; };
 		34CB9C512414EFFD00171A89 /* BullseyeUiKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullseyeUiKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34CB9C542414EFFD00171A89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34CB9C562414EFFD00171A89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +103,7 @@
 		34CB9C532414EFFD00171A89 /* BullseyeUiKit */ = {
 			isa = PBXGroup;
 			children = (
+				34A46A10241D38AF003A78B5 /* AboutViewController.swift */,
 				34CB9C542414EFFD00171A89 /* AppDelegate.swift */,
 				34CB9C562414EFFD00171A89 /* SceneDelegate.swift */,
 				34CB9C582414EFFD00171A89 /* ViewController.swift */,
@@ -106,6 +111,7 @@
 				34CB9C5D2414EFFF00171A89 /* Assets.xcassets */,
 				34CB9C5F2414EFFF00171A89 /* LaunchScreen.storyboard */,
 				34CB9C622414EFFF00171A89 /* Info.plist */,
+				34A46A12241D3C3A003A78B5 /* AboutAuthorViewController.swift */,
 			);
 			path = BullseyeUiKit;
 			sourceTree = "<group>";
@@ -261,7 +267,9 @@
 			files = (
 				34CB9C592414EFFD00171A89 /* ViewController.swift in Sources */,
 				34CB9C552414EFFD00171A89 /* AppDelegate.swift in Sources */,
+				34A46A11241D38AF003A78B5 /* AboutViewController.swift in Sources */,
 				34CB9C572414EFFD00171A89 /* SceneDelegate.swift in Sources */,
+				34A46A13241D3C3A003A78B5 /* AboutAuthorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
